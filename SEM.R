@@ -22,10 +22,6 @@ data[opostos]<-7-unlist(data[opostos])
 
 data.cov<-cov(data[1:42])
 
-L <-"autonomia =~ v17+v18+v19+v20+v41
-      dialogo =~ v4+v5+v6+v9+v25
-      disciplina =~ v2+v15+v12
-      punitivo =~ v3+v7+v8+v10+v11+v14\nautonomia + dialogo + disciplina + punitivo ~ v43 + v44 + v45 + v46 + v47"
 
 l<-"autonomo =~ v41+v19+v20+v18+v17
       dialogal =~ v6+v5+v25+v4+v9
@@ -37,14 +33,14 @@ pal3<-brewer.pal(5,"Set3")
 pal2<-brewer.pal(4,"Set2")
 pal1<-brewer.pal(4,"Set1")
 
-L1 <-"Negocial =~ Q1+Q2+Q3+Q4
-Disciplinar =~ Q5+Q6+Q7+Q8
-Punitivo =~ Q9+Q10+Q11+Q12\nNegocial + Disciplinar + Punitivo ~ idade + sexo + capital + tempo+segur"
 
-nodeW<-c(rep(2,19),rep(1,5),rep(1,4))
-nodeH<-c(rep(2,19),rep(.5,5),rep(1,4))
+nodeW<-c(rep(2.5,19),rep(1.2,5),rep(1,4))
+nodeH<-c(rep(2.2,19),rep(1,5),rep(1,4))
 
-label.size<-c(rep(1,19),rep(1,5),rep(1,4))
+label.size<-c(rep(1.2,19),rep(1,5),rep(1,4))
+labels<-c(dic2$descricao,c("autonomo","dialogal","disciplinar","punitivo"))
+
+colors<-c(rep(pal2[1],5),rep(pal2[2],5),rep(pal2[3],3),rep(pal2[4],6),pal3,pal2)
 
 semPaths(l,nodeLabels=labels,
          layout="tree2",
@@ -59,7 +55,8 @@ semPaths(l,nodeLabels=labels,
          sizeMan2 = 2.5,
          sizeLat = 3,
          sizeLat2 = 3,
-         color=list(lat=pal1,man=pal1),
+         color=colors,
+         vTrans=50,
          levels=c(2,3,4,7),
          #layoutSplit = T,
          #measurementLayout=T,
@@ -70,10 +67,9 @@ semPaths(l,nodeLabels=labels,
          node.height=nodeH,
          normalize=T,
          label.cex=label.size,
-         equalizeManifests=T,
-         #label.prop=1,
-         #label.scale=T,
-         height=15,
+         label.prop=.8,
+         label.scale=T,
+         height=20,
          width=15,
          mar=c(1,5,1,5),
          filetype="svg",
@@ -83,13 +79,41 @@ semPaths(l,nodeLabels=labels,
 
 
 
-
-
-
-
-
-
 fit <- cfa(L, data = data) 
+
+
+semPaths(l,nodeLabels=labels,
+         layout="tree2",
+         nCharNodes = 0,
+         curve=F,
+         rotation=2,
+         residuals=F,
+         exoVar = F,
+         exoCov=F,
+         groups=c("man","lat"),
+         sizeMan=5,
+         sizeMan2 = 2.5,
+         sizeLat = 3,
+         sizeLat2 = 3,
+         color=colors,
+         vTrans=50,
+         levels=c(2,3,4,7),
+         node.width=nodeW,
+         node.height=nodeH,
+         normalize=T,
+         label.cex=label.size,
+         label.prop=.8,
+         label.scale=T,
+         height=20,
+         width=15,
+         mar=c(1,5,1,5),
+         filetype="svg",
+         filename="graficoFit"
+)
+
+
+
+
 
 summary(fit,standardized=T,rsquare=T,fit.measures=T)
 
@@ -115,5 +139,6 @@ semPaths(fit, intercepts=F,residuals=F,thresholds=F,nCharNodes=0,whatLabels="std
 semPaths(fit2, intercepts=F,residuals=F,thresholds=F,nCharNodes=0,whatLabels="std")
 
 
-lbls<-LETTERS()
+
+
 
