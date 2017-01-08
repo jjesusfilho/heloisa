@@ -1,8 +1,4 @@
 
-Data <- read.table("http://www.statmodel.com/usersguide/chap5/ex5.8.dat")
-names(Data) <- c(paste("y", 1:6, sep = ""), paste("x", 1:3, sep = ""))
-
-
 library(lavann)
 library(semPlot)
 
