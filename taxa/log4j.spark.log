@@ -1,0 +1,391 @@
+17/01/28 05:58:17 INFO SparkContext: Running Spark version 1.6.2
+17/01/28 05:58:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/01/28 05:58:18 INFO SecurityManager: Changing view acls to: josedejesusfilho
+17/01/28 05:58:18 INFO SecurityManager: Changing modify acls to: josedejesusfilho
+17/01/28 05:58:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(josedejesusfilho); users with modify permissions: Set(josedejesusfilho)
+17/01/28 05:58:18 INFO Utils: Successfully started service 'sparkDriver' on port 62308.
+17/01/28 05:58:19 INFO Slf4jLogger: Slf4jLogger started
+17/01/28 05:58:19 INFO Remoting: Starting remoting
+17/01/28 05:58:19 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@127.0.0.1:62309]
+17/01/28 05:58:19 INFO Utils: Successfully started service 'sparkDriverActorSystem' on port 62309.
+17/01/28 05:58:19 INFO SparkEnv: Registering MapOutputTracker
+17/01/28 05:58:19 INFO SparkEnv: Registering BlockManagerMaster
+17/01/28 05:58:19 INFO DiskBlockManager: Created local directory at /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/blockmgr-defe714f-8016-41be-9b0a-6b24f424c578
+17/01/28 05:58:19 INFO MemoryStore: MemoryStore started with capacity 511.1 MB
+17/01/28 05:58:19 INFO SparkEnv: Registering OutputCommitCoordinator
+17/01/28 05:58:20 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+17/01/28 05:58:20 INFO SparkUI: Started SparkUI at http://127.0.0.1:4040
+17/01/28 05:58:20 INFO HttpFileServer: HTTP File server directory is /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/httpd-205c5c1d-5b43-4147-9bc0-12d251d963b8
+17/01/28 05:58:20 INFO HttpServer: Starting HTTP Server
+17/01/28 05:58:20 INFO Utils: Successfully started service 'HTTP file server' on port 62311.
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/Library/R/3.3/library/sparklyr/java/spark-csv_2.11-1.3.0.jar at http://127.0.0.1:62311/jars/spark-csv_2.11-1.3.0.jar with timestamp 1485590300869
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/Library/R/3.3/library/sparklyr/java/commons-csv-1.1.jar at http://127.0.0.1:62311/jars/commons-csv-1.1.jar with timestamp 1485590300873
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/Library/R/3.3/library/sparklyr/java/univocity-parsers-1.5.1.jar at http://127.0.0.1:62311/jars/univocity-parsers-1.5.1.jar with timestamp 1485590300878
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_sparkling-water-core_2.10-1.6.7.jar at http://127.0.0.1:62311/jars/ai.h2o_sparkling-water-core_2.10-1.6.7.jar with timestamp 1485590300954
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_sparkling-water-ml_2.10-1.6.7.jar at http://127.0.0.1:62311/jars/ai.h2o_sparkling-water-ml_2.10-1.6.7.jar with timestamp 1485590300959
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_sparkling-water-repl_2.10-1.6.7.jar at http://127.0.0.1:62311/jars/ai.h2o_sparkling-water-repl_2.10-1.6.7.jar with timestamp 1485590300961
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_h2o-app-3.10.0.6.jar at http://127.0.0.1:62311/jars/ai.h2o_h2o-app-3.10.0.6.jar with timestamp 1485590300962
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_h2o-scala_2.10-3.10.0.6.jar at http://127.0.0.1:62311/jars/ai.h2o_h2o-scala_2.10-3.10.0.6.jar with timestamp 1485590300963
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_h2o-persist-hdfs-3.10.0.6.jar at http://127.0.0.1:62311/jars/ai.h2o_h2o-persist-hdfs-3.10.0.6.jar with timestamp 1485590300963
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_h2o-persist-s3-3.10.0.6.jar at http://127.0.0.1:62311/jars/ai.h2o_h2o-persist-s3-3.10.0.6.jar with timestamp 1485590300964
+17/01/28 05:58:20 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.joda_joda-convert-1.7.jar at http://127.0.0.1:62311/jars/org.joda_joda-convert-1.7.jar with timestamp 1485590300966
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_h2o-web-3.10.0.6.jar at http://127.0.0.1:62311/jars/ai.h2o_h2o-web-3.10.0.6.jar with timestamp 1485590301117
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_h2o-algos-3.10.0.6.jar at http://127.0.0.1:62311/jars/ai.h2o_h2o-algos-3.10.0.6.jar with timestamp 1485590301136
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_h2o-core-3.10.0.6.jar at http://127.0.0.1:62311/jars/ai.h2o_h2o-core-3.10.0.6.jar with timestamp 1485590301175
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_h2o-genmodel-3.10.0.6.jar at http://127.0.0.1:62311/jars/ai.h2o_h2o-genmodel-3.10.0.6.jar with timestamp 1485590301179
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_h2o-avro-parser-3.10.0.6.jar at http://127.0.0.1:62311/jars/ai.h2o_h2o-avro-parser-3.10.0.6.jar with timestamp 1485590301181
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/gov.nist.math_jama-1.0.3.jar at http://127.0.0.1:62311/jars/gov.nist.math_jama-1.0.3.jar with timestamp 1485590301182
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.javassist_javassist-3.18.2-GA.jar at http://127.0.0.1:62311/jars/org.javassist_javassist-3.18.2-GA.jar with timestamp 1485590301196
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.apache.commons_commons-math3-3.3.jar at http://127.0.0.1:62311/jars/org.apache.commons_commons-math3-3.3.jar with timestamp 1485590301228
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar at http://127.0.0.1:62311/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar with timestamp 1485590301237
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/commons-io_commons-io-2.4.jar at http://127.0.0.1:62311/jars/commons-io_commons-io-2.4.jar with timestamp 1485590301243
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar at http://127.0.0.1:62311/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar with timestamp 1485590301245
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar with timestamp 1485590301261
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar with timestamp 1485590301273
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar with timestamp 1485590301279
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.github.rwl_jtransforms-2.4.0.jar at http://127.0.0.1:62311/jars/com.github.rwl_jtransforms-2.4.0.jar with timestamp 1485590301297
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.github.tony19_named-regexp-0.2.3.jar at http://127.0.0.1:62311/jars/com.github.tony19_named-regexp-0.2.3.jar with timestamp 1485590301298
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/log4j_log4j-1.2.15.jar at http://127.0.0.1:62311/jars/log4j_log4j-1.2.15.jar with timestamp 1485590301313
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.google.guava_guava-16.0.1.jar at http://127.0.0.1:62311/jars/com.google.guava_guava-16.0.1.jar with timestamp 1485590301342
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.google.code.gson_gson-2.3.1.jar at http://127.0.0.1:62311/jars/com.google.code.gson_gson-2.3.1.jar with timestamp 1485590301352
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar at http://127.0.0.1:62311/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar with timestamp 1485590301355
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/commons-lang_commons-lang-2.6.jar at http://127.0.0.1:62311/jars/commons-lang_commons-lang-2.6.jar with timestamp 1485590301361
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar with timestamp 1485590301366
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar with timestamp 1485590301371
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar with timestamp 1485590301373
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar with timestamp 1485590301376
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar with timestamp 1485590301385
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar with timestamp 1485590301390
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar with timestamp 1485590301393
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar with timestamp 1485590301396
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar with timestamp 1485590301398
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar with timestamp 1485590301401
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar with timestamp 1485590301406
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar with timestamp 1485590301418
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar at http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar with timestamp 1485590301422
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar at http://127.0.0.1:62311/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1485590301424
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.apache.avro_avro-1.8.0.jar at http://127.0.0.1:62311/jars/org.apache.avro_avro-1.8.0.jar with timestamp 1485590301437
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar at http://127.0.0.1:62311/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar with timestamp 1485590301449
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar at http://127.0.0.1:62311/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar with timestamp 1485590301461
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.thoughtworks.paranamer_paranamer-2.7.jar at http://127.0.0.1:62311/jars/com.thoughtworks.paranamer_paranamer-2.7.jar with timestamp 1485590301466
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar at http://127.0.0.1:62311/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar with timestamp 1485590301477
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.apache.commons_commons-compress-1.8.1.jar at http://127.0.0.1:62311/jars/org.apache.commons_commons-compress-1.8.1.jar with timestamp 1485590301493
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.tukaani_xz-1.5.jar at http://127.0.0.1:62311/jars/org.tukaani_xz-1.5.jar with timestamp 1485590301499
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.slf4j_slf4j-api-1.7.7.jar at http://127.0.0.1:62311/jars/org.slf4j_slf4j-api-1.7.7.jar with timestamp 1485590301500
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/net.java.dev.jets3t_jets3t-0.6.1.jar at http://127.0.0.1:62311/jars/net.java.dev.jets3t_jets3t-0.6.1.jar with timestamp 1485590301509
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/commons-httpclient_commons-httpclient-3.1.jar at http://127.0.0.1:62311/jars/commons-httpclient_commons-httpclient-3.1.jar with timestamp 1485590301515
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar at http://127.0.0.1:62311/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar with timestamp 1485590301528
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.apache.httpcomponents_httpclient-4.3.6.jar at http://127.0.0.1:62311/jars/org.apache.httpcomponents_httpclient-4.3.6.jar with timestamp 1485590301541
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar at http://127.0.0.1:62311/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar with timestamp 1485590301555
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar at http://127.0.0.1:62311/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar with timestamp 1485590301572
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar at http://127.0.0.1:62311/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1485590301577
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.fasterxml.jackson.core_jackson-databind-2.5.3.jar at http://127.0.0.1:62311/jars/com.fasterxml.jackson.core_jackson-databind-2.5.3.jar with timestamp 1485590301598
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/joda-time_joda-time-2.8.1.jar at http://127.0.0.1:62311/jars/joda-time_joda-time-2.8.1.jar with timestamp 1485590301616
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/org.apache.httpcomponents_httpcore-4.3.3.jar at http://127.0.0.1:62311/jars/org.apache.httpcomponents_httpcore-4.3.3.jar with timestamp 1485590301624
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/commons-codec_commons-codec-1.6.jar at http://127.0.0.1:62311/jars/commons-codec_commons-codec-1.6.jar with timestamp 1485590301629
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.fasterxml.jackson.core_jackson-annotations-2.5.0.jar at http://127.0.0.1:62311/jars/com.fasterxml.jackson.core_jackson-annotations-2.5.0.jar with timestamp 1485590301634
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/.ivy2/jars/com.fasterxml.jackson.core_jackson-core-2.5.3.jar at http://127.0.0.1:62311/jars/com.fasterxml.jackson.core_jackson-core-2.5.3.jar with timestamp 1485590301641
+17/01/28 05:58:21 INFO SparkContext: Added JAR file:/Users/josedejesusfilho/Library/R/3.3/library/sparklyr/java/sparklyr-1.6-2.10.jar at http://127.0.0.1:62311/jars/sparklyr-1.6-2.10.jar with timestamp 1485590301645
+17/01/28 05:58:21 INFO Executor: Starting executor ID driver on host localhost
+17/01/28 05:58:21 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 62312.
+17/01/28 05:58:21 INFO NettyBlockTransferService: Server created on 62312
+17/01/28 05:58:21 INFO BlockManagerMaster: Trying to register BlockManager
+17/01/28 05:58:21 INFO BlockManagerMasterEndpoint: Registering block manager localhost:62312 with 511.1 MB RAM, BlockManagerId(driver, localhost, 62312)
+17/01/28 05:58:21 INFO BlockManagerMaster: Registered BlockManager
+17/01/28 05:58:23 INFO HiveContext: Initializing execution hive, version 1.2.1
+17/01/28 05:58:23 INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/01/28 05:58:23 INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/01/28 05:58:24 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/01/28 05:58:24 INFO ObjectStore: ObjectStore, initialize called
+17/01/28 05:58:24 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/01/28 05:58:24 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/01/28 05:58:27 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/01/28 05:58:28 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:28 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:29 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:29 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:29 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/01/28 05:58:29 INFO ObjectStore: Initialized ObjectStore
+17/01/28 05:58:29 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+17/01/28 05:58:30 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+17/01/28 05:58:30 INFO HiveMetaStore: Added admin role in metastore
+17/01/28 05:58:30 INFO HiveMetaStore: Added public role in metastore
+17/01/28 05:58:30 INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/01/28 05:58:30 INFO HiveMetaStore: 0: get_all_databases
+17/01/28 05:58:30 INFO audit: ugi=josedejesusfilho	ip=unknown-ip-addr	cmd=get_all_databases	
+17/01/28 05:58:30 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/01/28 05:58:30 INFO audit: ugi=josedejesusfilho	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/01/28 05:58:30 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:30 INFO SessionState: Created local directory: /var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/bed091be-83d4-4b26-9416-b1e9cf837dd6_resources
+17/01/28 05:58:30 INFO SessionState: Created HDFS directory: /tmp/hive/josedejesusfilho/bed091be-83d4-4b26-9416-b1e9cf837dd6
+17/01/28 05:58:30 INFO SessionState: Created local directory: /var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/josedejesusfilho/bed091be-83d4-4b26-9416-b1e9cf837dd6
+17/01/28 05:58:30 INFO SessionState: Created HDFS directory: /tmp/hive/josedejesusfilho/bed091be-83d4-4b26-9416-b1e9cf837dd6/_tmp_space.db
+17/01/28 05:58:31 INFO HiveContext: default warehouse location is /user/hive/warehouse
+17/01/28 05:58:31 INFO HiveContext: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+17/01/28 05:58:31 INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/01/28 05:58:31 INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/01/28 05:58:31 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/01/28 05:58:31 INFO ObjectStore: ObjectStore, initialize called
+17/01/28 05:58:32 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/01/28 05:58:32 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/01/28 05:58:33 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/01/28 05:58:34 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:34 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:35 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:35 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:36 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/01/28 05:58:36 INFO ObjectStore: Initialized ObjectStore
+17/01/28 05:58:36 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+17/01/28 05:58:36 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+17/01/28 05:58:36 INFO HiveMetaStore: Added admin role in metastore
+17/01/28 05:58:36 INFO HiveMetaStore: Added public role in metastore
+17/01/28 05:58:36 INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/01/28 05:58:36 INFO HiveMetaStore: 0: get_all_databases
+17/01/28 05:58:36 INFO audit: ugi=josedejesusfilho	ip=unknown-ip-addr	cmd=get_all_databases	
+17/01/28 05:58:36 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/01/28 05:58:36 INFO audit: ugi=josedejesusfilho	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/01/28 05:58:36 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/01/28 05:58:37 INFO SessionState: Created local directory: /var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/7aee4ed5-3e92-4f24-b19e-401572f7a3b1_resources
+17/01/28 05:58:37 INFO SessionState: Created HDFS directory: /tmp/hive/josedejesusfilho/7aee4ed5-3e92-4f24-b19e-401572f7a3b1
+17/01/28 05:58:37 INFO SessionState: Created local directory: /var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/josedejesusfilho/7aee4ed5-3e92-4f24-b19e-401572f7a3b1
+17/01/28 05:58:37 INFO SessionState: Created HDFS directory: /tmp/hive/josedejesusfilho/7aee4ed5-3e92-4f24-b19e-401572f7a3b1/_tmp_space.db
+17/01/28 05:58:38 INFO HiveMetaStore: 0: get_tables: db=default pat=.*
+17/01/28 05:58:38 INFO audit: ugi=josedejesusfilho	ip=unknown-ip-addr	cmd=get_tables: db=default pat=.*	
+17/01/28 05:58:38 INFO SparkContext: Starting job: collect at utils.scala:195
+17/01/28 05:58:38 INFO DAGScheduler: Got job 0 (collect at utils.scala:195) with 1 output partitions
+17/01/28 05:58:38 INFO DAGScheduler: Final stage: ResultStage 0 (collect at utils.scala:195)
+17/01/28 05:58:38 INFO DAGScheduler: Parents of final stage: List()
+17/01/28 05:58:38 INFO DAGScheduler: Missing parents: List()
+17/01/28 05:58:38 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at collect at utils.scala:195), which has no missing parents
+17/01/28 05:58:39 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 1968.0 B, free 1968.0 B)
+17/01/28 05:58:39 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 1230.0 B, free 3.1 KB)
+17/01/28 05:58:39 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:62312 (size: 1230.0 B, free: 511.1 MB)
+17/01/28 05:58:39 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1006
+17/01/28 05:58:39 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at collect at utils.scala:195)
+17/01/28 05:58:39 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+17/01/28 05:58:39 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, partition 0,PROCESS_LOCAL, 7481 bytes)
+17/01/28 05:58:39 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_sparkling-water-repl_2.10-1.6.7.jar with timestamp 1485590300961
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_sparkling-water-repl_2.10-1.6.7.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp2881793460540473695.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_sparkling-water-repl_2.10-1.6.7.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar with timestamp 1485590301418
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp236898600791564525.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar with timestamp 1485590301261
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp7376404140422536304.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1485590301577
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/commons-logging_commons-logging-1.1.3.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp2340300116251099056.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/commons-logging_commons-logging-1.1.3.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.fasterxml.jackson.core_jackson-core-2.5.3.jar with timestamp 1485590301641
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.fasterxml.jackson.core_jackson-core-2.5.3.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp753794397902264681.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.fasterxml.jackson.core_jackson-core-2.5.3.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.javassist_javassist-3.18.2-GA.jar with timestamp 1485590301196
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.javassist_javassist-3.18.2-GA.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1188831751159509347.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.javassist_javassist-3.18.2-GA.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.github.rwl_jtransforms-2.4.0.jar with timestamp 1485590301297
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.github.rwl_jtransforms-2.4.0.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp9022261743372544205.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.github.rwl_jtransforms-2.4.0.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.slf4j_slf4j-api-1.7.7.jar with timestamp 1485590301500
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.slf4j_slf4j-api-1.7.7.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1310293313287759243.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.slf4j_slf4j-api-1.7.7.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/commons-io_commons-io-2.4.jar with timestamp 1485590301243
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/commons-io_commons-io-2.4.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp86955329013137273.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/commons-io_commons-io-2.4.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-persist-hdfs-3.10.0.6.jar with timestamp 1485590300963
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-persist-hdfs-3.10.0.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp6919913752392107784.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_h2o-persist-hdfs-3.10.0.6.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar with timestamp 1485590301385
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp7468810019766443856.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.fasterxml.jackson.core_jackson-databind-2.5.3.jar with timestamp 1485590301598
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.fasterxml.jackson.core_jackson-databind-2.5.3.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp4801059637819577145.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.fasterxml.jackson.core_jackson-databind-2.5.3.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar with timestamp 1485590301422
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp3113775655788829681.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar with timestamp 1485590301237
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp2957435662929990032.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.apache.directory.studio_org.apache.commons.lang-2.6.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar with timestamp 1485590301245
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp3800810389399712533.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar with timestamp 1485590301398
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1841141381993052161.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar with timestamp 1485590301390
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp692237447011804995.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.apache.commons_commons-compress-1.8.1.jar with timestamp 1485590301493
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.apache.commons_commons-compress-1.8.1.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp8915492695227515705.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.apache.commons_commons-compress-1.8.1.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.github.tony19_named-regexp-0.2.3.jar with timestamp 1485590301298
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.github.tony19_named-regexp-0.2.3.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp5651669723524087548.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.github.tony19_named-regexp-0.2.3.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.thoughtworks.paranamer_paranamer-2.7.jar with timestamp 1485590301466
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.thoughtworks.paranamer_paranamer-2.7.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp2069049844014193926.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.thoughtworks.paranamer_paranamer-2.7.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/sparklyr-1.6-2.10.jar with timestamp 1485590301645
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/sparklyr-1.6-2.10.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp8765313583440155121.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/sparklyr-1.6-2.10.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar with timestamp 1485590301393
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp4685220637061825985.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.google.code.gson_gson-2.3.1.jar with timestamp 1485590301352
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.google.code.gson_gson-2.3.1.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp6889084266201654990.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.google.code.gson_gson-2.3.1.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar with timestamp 1485590301555
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp2971499981472775325.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.amazonaws_aws-java-sdk-kms-1.10.47.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/commons-httpclient_commons-httpclient-3.1.jar with timestamp 1485590301515
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/commons-httpclient_commons-httpclient-3.1.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp6773303946540027670.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/commons-httpclient_commons-httpclient-3.1.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar with timestamp 1485590301273
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp5268090391792449971.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-genmodel-3.10.0.6.jar with timestamp 1485590301179
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-genmodel-3.10.0.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1041750691588847526.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_h2o-genmodel-3.10.0.6.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar with timestamp 1485590301371
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp7274224112737754130.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_sparkling-water-core_2.10-1.6.7.jar with timestamp 1485590300954
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_sparkling-water-core_2.10-1.6.7.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp158735449387202942.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_sparkling-water-core_2.10-1.6.7.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar with timestamp 1485590301355
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp6651335627789218742.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_reflections-0.9.11-h2o-custom.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.apache.httpcomponents_httpcore-4.3.3.jar with timestamp 1485590301624
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.apache.httpcomponents_httpcore-4.3.3.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1167057494913059547.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.apache.httpcomponents_httpcore-4.3.3.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.apache.avro_avro-1.8.0.jar with timestamp 1485590301437
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.apache.avro_avro-1.8.0.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1210835744869800540.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.apache.avro_avro-1.8.0.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/spark-csv_2.11-1.3.0.jar with timestamp 1485590300869
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/spark-csv_2.11-1.3.0.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp6126871052137283584.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/spark-csv_2.11-1.3.0.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar with timestamp 1485590301373
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp7055394917542682590.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/log4j_log4j-1.2.15.jar with timestamp 1485590301313
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/log4j_log4j-1.2.15.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp546412024337104646.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/log4j_log4j-1.2.15.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-persist-s3-3.10.0.6.jar with timestamp 1485590300964
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-persist-s3-3.10.0.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp5644533992710671624.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_h2o-persist-s3-3.10.0.6.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.apache.commons_commons-math3-3.3.jar with timestamp 1485590301228
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.apache.commons_commons-math3-3.3.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp9204493987760841696.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.apache.commons_commons-math3-3.3.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar with timestamp 1485590301449
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp8158544857694227322.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.codehaus.jackson_jackson-core-asl-1.9.13.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar with timestamp 1485590301572
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp6561401176823440677.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.amazonaws_aws-java-sdk-core-1.10.47.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar with timestamp 1485590301396
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp369125624096004873.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar with timestamp 1485590301461
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp7814374191341503708.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.apache.httpcomponents_httpclient-4.3.6.jar with timestamp 1485590301541
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.apache.httpcomponents_httpclient-4.3.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp4839778244513988880.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.apache.httpcomponents_httpclient-4.3.6.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-avro-parser-3.10.0.6.jar with timestamp 1485590301181
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-avro-parser-3.10.0.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp421273681323634747.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_h2o-avro-parser-3.10.0.6.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-algos-3.10.0.6.jar with timestamp 1485590301136
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-algos-3.10.0.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp3386287977023573027.tmp
+17/01/28 05:58:39 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_h2o-algos-3.10.0.6.jar to class loader
+17/01/28 05:58:39 INFO Executor: Fetching http://127.0.0.1:62311/jars/joda-time_joda-time-2.8.1.jar with timestamp 1485590301616
+17/01/28 05:58:39 INFO Utils: Fetching http://127.0.0.1:62311/jars/joda-time_joda-time-2.8.1.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp2728192695273649788.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/joda-time_joda-time-2.8.1.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar with timestamp 1485590301376
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp896133485224363839.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/commons-csv-1.1.jar with timestamp 1485590300873
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/commons-csv-1.1.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1250000053092794450.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/commons-csv-1.1.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/gov.nist.math_jama-1.0.3.jar with timestamp 1485590301182
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/gov.nist.math_jama-1.0.3.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1954744903871658692.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/gov.nist.math_jama-1.0.3.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-scala_2.10-3.10.0.6.jar with timestamp 1485590300963
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-scala_2.10-3.10.0.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp2209317105917408876.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_h2o-scala_2.10-3.10.0.6.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_sparkling-water-ml_2.10-1.6.7.jar with timestamp 1485590300959
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_sparkling-water-ml_2.10-1.6.7.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp3818882802348064333.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_sparkling-water-ml_2.10-1.6.7.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/univocity-parsers-1.5.1.jar with timestamp 1485590300878
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/univocity-parsers-1.5.1.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1038819965032830644.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/univocity-parsers-1.5.1.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1485590301424
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.google.code.findbugs_jsr305-3.0.0.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp8882419430143288391.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.google.code.findbugs_jsr305-3.0.0.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.joda_joda-convert-1.7.jar with timestamp 1485590300966
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.joda_joda-convert-1.7.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp2833471654002874626.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.joda_joda-convert-1.7.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar with timestamp 1485590301366
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp1746742757661305539.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar with timestamp 1485590301477
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp4507337242465433966.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.xerial.snappy_snappy-java-1.1.1.3.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.tukaani_xz-1.5.jar with timestamp 1485590301499
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.tukaani_xz-1.5.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp6041378848031079288.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.tukaani_xz-1.5.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-app-3.10.0.6.jar with timestamp 1485590300962
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-app-3.10.0.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp8207503467203547462.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_h2o-app-3.10.0.6.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.fasterxml.jackson.core_jackson-annotations-2.5.0.jar with timestamp 1485590301634
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.fasterxml.jackson.core_jackson-annotations-2.5.0.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp7334657218659913548.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.fasterxml.jackson.core_jackson-annotations-2.5.0.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/net.java.dev.jets3t_jets3t-0.6.1.jar with timestamp 1485590301509
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/net.java.dev.jets3t_jets3t-0.6.1.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp2185871831008538624.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/net.java.dev.jets3t_jets3t-0.6.1.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar with timestamp 1485590301401
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp452397500203300458.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar with timestamp 1485590301279
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp3385553987182779857.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar with timestamp 1485590301406
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp5156683121309202665.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-web-3.10.0.6.jar with timestamp 1485590301117
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-web-3.10.0.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp7889399091958131566.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_h2o-web-3.10.0.6.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/commons-codec_commons-codec-1.6.jar with timestamp 1485590301629
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/commons-codec_commons-codec-1.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp5175616817161267377.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/commons-codec_commons-codec-1.6.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar with timestamp 1485590301528
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp7444109212221846852.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.amazonaws_aws-java-sdk-s3-1.10.47.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/commons-lang_commons-lang-2.6.jar with timestamp 1485590301361
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/commons-lang_commons-lang-2.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp4251901114545492599.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/commons-lang_commons-lang-2.6.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/com.google.guava_guava-16.0.1.jar with timestamp 1485590301342
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/com.google.guava_guava-16.0.1.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp735970675053407043.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/com.google.guava_guava-16.0.1.jar to class loader
+17/01/28 05:58:40 INFO Executor: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-core-3.10.0.6.jar with timestamp 1485590301175
+17/01/28 05:58:40 INFO Utils: Fetching http://127.0.0.1:62311/jars/ai.h2o_h2o-core-3.10.0.6.jar to /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/fetchFileTemp6954916086091729518.tmp
+17/01/28 05:58:40 INFO Executor: Adding file:/private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/userFiles-297fcb71-5da6-47a4-aa4c-fb7526507102/ai.h2o_h2o-core-3.10.0.6.jar to class loader
+17/01/28 05:58:40 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 940 bytes result sent to driver
+17/01/28 05:58:40 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1491 ms on localhost (1/1)
+17/01/28 05:58:40 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+17/01/28 05:58:40 INFO DAGScheduler: ResultStage 0 (collect at utils.scala:195) finished in 1,513 s
+17/01/28 05:58:40 INFO DAGScheduler: Job 0 finished: collect at utils.scala:195, took 1,764859 s
+17/01/28 06:16:40 INFO SparkContext: Invoking stop() from shutdown hook
+17/01/28 06:16:40 INFO SparkUI: Stopped Spark web UI at http://127.0.0.1:4040
+17/01/28 06:16:40 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/01/28 06:16:40 INFO MemoryStore: MemoryStore cleared
+17/01/28 06:16:40 INFO BlockManager: BlockManager stopped
+17/01/28 06:16:40 INFO BlockManagerMaster: BlockManagerMaster stopped
+17/01/28 06:16:40 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/01/28 06:16:41 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+17/01/28 06:16:41 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+17/01/28 06:16:41 INFO SparkContext: Successfully stopped SparkContext
+17/01/28 06:16:41 INFO ShutdownHookManager: Shutdown hook called
+17/01/28 06:16:41 INFO ShutdownHookManager: Deleting directory /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-a0e5f5c2-fe9d-4cc8-ac6b-1fdd9f875541
+17/01/28 06:16:41 INFO ShutdownHookManager: Deleting directory /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c/httpd-205c5c1d-5b43-4147-9bc0-12d251d963b8
+17/01/28 06:16:41 INFO RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+17/01/28 06:16:41 INFO ShutdownHookManager: Deleting directory /private/var/folders/f4/2w55zrvj5sd1kgppzrtsqcz40000gn/T/spark-de449fec-2a8f-4452-91f8-c3d29581da3c

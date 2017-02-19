@@ -2,49 +2,56 @@ setwd("~/Documents/tese/tese")
 library(lavaan)
 library(semPlot)
 library(RColorBrewer)
+library(stringr)
 
-#Importa os dados 
-data<-readRDS("data.rds")
-#Lê transforma em números
-data[1:42]<-as.numeric(unlist(data[1:42]))
+modelo1<-"autonomia =~ v1+v41+v19+v20+v18+v17
+          proximidade=~ v5+v4+v6+v9
+punitivismo =~ v7+v8+v10+v27
+autonomia + proximidade + punitivismo ~ v43 + v44 + v45 + v46 + v47"
 
-# Dá nomes simples (retirar jogo da velha se for usar)
-names(data)<-paste0("v",1:47)
+## Variáveis utilizadas:
+s<-unlist(str_extract_all(modelo1,"v\\d+"))
 
-#Importar dicionario
-dic<-readRDS("dicionario_grupo.rds")
+# Extração das descrições
+endogenas<-as.character(dic[match(s,dic$var),]$descricao[1:14])
 
-# Selecionar os indicadores que estão com declarações em sentido oposto às demais
+## Quebra as linhas para caber nas caixas de diálogo
+endogenas<-str_wrap(endogenas,width=25)
 
-opostos<-as.numeric(rownames(na.omit(dic[dic$sinal=="n",-2])))
-# 
-data[opostos]<-7-unlist(data[opostos])
-
-data.cov<-cov(data[1:42])
-
-
-l<-"autonomo =~ v41+v19+v20+v18+v17
-      dialogal =~ v6+v5+v25+v4+v9
-      disciplinar =~ v2+v12+v15
-      punitivo =~ v3+v7+v10+v14+v11+v8\nautonomo + dialogal + disciplinar + punitivo ~ v43 + v44 + v45 + v46 + v47"
-
+fit1<-cfa(modelo1,data=dados)
 
 pal3<-brewer.pal(5,"Set3")
 pal2<-brewer.pal(4,"Set2")
 pal1<-brewer.pal(4,"Set1")
 
 
-nodeW<-c(rep(2.5,19),rep(1.2,5),rep(1,4))
-nodeH<-c(rep(2.2,19),rep(1,5),rep(1,4))
+nodeW<-c(rep(2.5,14),rep(1.2,5),rep(1,3))
+nodeH<-c(rep(2.2,14),rep(1,5),rep(1,3))
 
-label.size<-c(rep(1.2,19),rep(1,5),rep(1,4))
-labels<-c(dic2$descricao,c("autonomo","dialogal","disciplinar","punitivo"))
+label.size<-c(rep(1.2,14),rep(1,5),rep(1,3))
 
-colors<-c(rep(pal2[1],5),rep(pal2[2],5),rep(pal2[3],3),rep(pal2[4],6),pal3,pal2)
+labs<-c(endogenas,c("idade","sexo","segurança da unidade","unidades administradas","tempo de SAP"),c("autonomia","proximidade","punitivista"))
 
-semPaths(l,nodeLabels=labels,
+colors<-c(rep(pal2[1],6),rep(pal2[2],4),rep(pal2[3],4),pal3,pal2[c(1:3)])
+
+
+
+
+modelo1<-"autonomia =~ v1+v41+v19+v20+v18+v17
+          proximidade=~ v4+v5+v6+v9
+punitivismo =~ v7+v8+v10+v27
+autonomia + proximidade + punitivismo ~ v43 + v44 + v45 + v46 + v47"
+
+## Isso precisar ser feito, do contrário, não plota
+fit1@SampleStats@cov<-fit1@SampleStats@res.cov
+
+
+semPaths(modelo1,
+         #what="est",
+         nodeLabels=labs,
          layout="tree2",
          nCharNodes = 0,
+         intercepts = F,
          curve=F,
          rotation=2,
          residuals=F,
@@ -57,46 +64,7 @@ semPaths(l,nodeLabels=labels,
          sizeLat2 = 3,
          color=colors,
          vTrans=50,
-         levels=c(2,3,4,7),
-         #layoutSplit = T,
-         #measurementLayout=T,
-         #subRes = 2,
-         #subscale2=10,
-         #cardinal=T,
-         node.width=nodeW,
-         node.height=nodeH,
-         normalize=T,
-         label.cex=label.size,
-         label.prop=.8,
-         label.scale=T,
-         height=20,
-         width=15,
-         mar=c(1,5,1,5),
-         filetype="svg",
-         filename="grafico2"
-)
-
-
-
-
-fit <- cfa(L, data = data) 
-
-
-semPaths(l,nodeLabels=labels,
-         layout="tree2",
-         nCharNodes = 0,
-         curve=F,
-         rotation=2,
-         residuals=F,
-         exoVar = F,
-         exoCov=F,
-         groups=c("man","lat"),
-         sizeMan=5,
-         sizeMan2 = 2.5,
-         sizeLat = 3,
-         sizeLat2 = 3,
-         color=colors,
-         vTrans=50,
+         #trans=0,
          levels=c(2,3,4,7),
          node.width=nodeW,
          node.height=nodeH,
@@ -108,14 +76,14 @@ semPaths(l,nodeLabels=labels,
          width=15,
          mar=c(1,5,1,5),
          filetype="svg",
-         filename="graficoFit"
+         filename="~/Desktop/TESE/figure/graficoSEM"
 )
 
 
 
 
 
-summary(fit,standardized=T,rsquare=T,fit.measures=T)
+summary(fit1,standardized=T,rsquare=T,fit.measures=T)
 
 ### Verificando os coeficientes e intervalos de confiança
 
@@ -127,18 +95,26 @@ fitted(fit)
 
 ### Verificando o resíduo
 
-residuals(fit)
+fit1.res.cor<-residuals(fit1,type="cor")
 
-semPaths(fit, intercepts=F,residuals=F,thresholds=F,nCharNodes=0,whatLabels="std")
+residuos<-as.data.frame(fit1.res.cor$cor)
+residuos<-rownames_to_column(residuos,var="indicadores")
+saveRDS(residuos,"fit_res_cor.rds")
 
+### Medidas de Ajuste do Modelo
 
-fit2 <- cfa(L, sample.cov=a1.1,sample.nobs=73) # mesma coisa, mas com 
+ajuste<-inspect(fit1,"fit")
 
-semPaths(fit, intercepts=F,residuals=F,thresholds=F,nCharNodes=0,whatLabels="std")
+ajuste<-as.data.frame(ajuste)
+ajuste<-rownames_to_column(ajuste,"Medida")
+names(ajuste)[2]<-"Valor"
+ajuste$Valor<-round(ajuste$Valor,2)
+saveRDS(ajuste,"ajuste.rds")
 
-semPaths(fit2, intercepts=F,residuals=F,thresholds=F,nCharNodes=0,whatLabels="std")
+11.671/22.784
 
-
-
-
+myData <- matrix(c(19,89,23,23,74,44,16,39,67),ncol=3,byrow=TRUE)
+colnames(myData) <- c("A","B","C")
+rownames(myData) <- c("1","2","3")
+myData2 <- myData * 2
 

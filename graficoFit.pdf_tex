@@ -1,0 +1,184 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'graficoFit.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1214.13603516bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.95238094)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{graficoFit.pdf}}%
+    \put(0.22145789,0.33115895){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{0.00}}}%
+    \put(0.3396061,0.3556768){\color[rgb]{1,0.99607843,0.99607843}\makebox(0,0)[lb]{\smash{-0.00}}}%
+    \put(0.21906606,0.65159751){\color[rgb]{1,0.99215686,0.99215686}\makebox(0,0)[lb]{\smash{-0.01}}}%
+    \put(0.22384971,0.44841105){\color[rgb]{0.99215686,0.99607843,0.99215686}\makebox(0,0)[lb]{\smash{0.01}}}%
+    \put(0.22368498,0.545784){\color[rgb]{1,0.99215686,0.99215686}\makebox(0,0)[lb]{\smash{-0.01}}}%
+    \put(0.22651827,0.42351104){\color[rgb]{0.98039216,0.99215686,0.98039216}\makebox(0,0)[lb]{\smash{0.02}}}%
+    \put(0.21937575,0.67624055){\color[rgb]{0.99607843,0.98039216,0.98039216}\makebox(0,0)[lb]{\smash{-0.02}}}%
+    \put(0.22149083,0.57843273){\color[rgb]{0.97647059,0.99215686,0.97647059}\makebox(0,0)[lb]{\smash{0.02}}}%
+    \put(0.22237376,0.47345602){\color[rgb]{0.97647059,0.99215686,0.97647059}\makebox(0,0)[lb]{\smash{0.02}}}%
+    \put(0.22382994,0.52242582){\color[rgb]{0.99215686,0.96470588,0.96470588}\makebox(0,0)[lb]{\smash{-0.03}}}%
+    \put(0.2214513,0.62711261){\color[rgb]{0.96470588,0.98431373,0.96470588}\makebox(0,0)[lb]{\smash{0.03}}}%
+    \put(0.21895405,0.30680583){\color[rgb]{0.99215686,0.96470588,0.96470588}\makebox(0,0)[lb]{\smash{-0.04}}}%
+    \put(0.34209676,0.47592692){\color[rgb]{0.95294118,0.98039216,0.95294118}\makebox(0,0)[lb]{\smash{0.05}}}%
+    \put(0.21927032,0.25774379){\color[rgb]{0.98823529,0.94901961,0.94901961}\makebox(0,0)[lb]{\smash{-0.05}}}%
+    \put(0.22595821,0.3767947){\color[rgb]{0.91764706,0.96470588,0.91764706}\makebox(0,0)[lb]{\smash{0.08}}}%
+    \put(0.2215106,0.35543959){\color[rgb]{0.90588235,0.96078431,0.90588235}\makebox(0,0)[lb]{\smash{0.09}}}%
+    \put(0.34209676,0.25947671){\color[rgb]{0.85882353,0.94509804,0.85882353}\makebox(0,0)[lb]{\smash{0.14}}}%
+    \put(0.3396061,0.68035212){\color[rgb]{0.96078431,0.84705882,0.84705882}\makebox(0,0)[lb]{\smash{-0.15}}}%
+    \put(0.3396061,0.58415202){\color[rgb]{0.95294118,0.80784314,0.80784314}\makebox(0,0)[lb]{\smash{-0.19}}}%
+    \put(0.44565682,0.37711756){\color[rgb]{0.79215686,0.91764706,0.79215686}\makebox(0,0)[lb]{\smash{0.20}}}%
+    \put(0.3396061,0.4639019){\color[rgb]{0.94509804,0.78823529,0.78823529}\makebox(0,0)[lb]{\smash{-0.21}}}%
+    \put(0.21902653,0.28234729){\color[rgb]{0.94117647,0.76862745,0.76862745}\makebox(0,0)[lb]{\smash{-0.23}}}%
+    \put(0.22085828,0.49716342){\color[rgb]{0.9372549,0.75686275,0.75686275}\makebox(0,0)[lb]{\smash{-0.24}}}%
+    \put(0.21896064,0.60273314){\color[rgb]{0.91764706,0.67058824,0.67058824}\makebox(0,0)[lb]{\smash{-0.32}}}%
+    \put(0.21967884,0.47218434){\color[rgb]{0.91372549,0.65490196,0.65490196}\makebox(0,0)[lb]{\smash{-0.33}}}%
+    \put(0.44565682,0.56951775){\color[rgb]{0.55686275,0.82352941,0.55686275}\makebox(0,0)[lb]{\smash{0.43}}}%
+    \put(0.22595821,0.56919488){\color[rgb]{0.55686275,0.82352941,0.55686275}\makebox(0,0)[lb]{\smash{0.43}}}%
+    \put(0.22608999,0.40023853){\color[rgb]{0.45490196,0.78039216,0.45490196}\makebox(0,0)[lb]{\smash{0.53}}}%
+    \put(0.44565682,0.13661733){\color[rgb]{0.40392157,0.76078431,0.40392157}\makebox(0,0)[lb]{\smash{0.58}}}%
+    \put(0.44294872,0.35624346){\color[rgb]{0.84313725,0.36862745,0.36862745}\makebox(0,0)[lb]{\smash{-0.61}}}%
+    \put(0.44552504,0.59041162){\color[rgb]{0.21568627,0.68627451,0.21568627}\makebox(0,0)[lb]{\smash{0.76}}}%
+    \put(0.44509016,0.17824034){\color[rgb]{0.03137255,0.61176471,0.03137255}\makebox(0,0)[lb]{\smash{0.94}}}%
+    \put(0.44495179,0.09507338){\color[rgb]{0,0.39215686,0}\makebox(0,0)[lb]{\smash{1.00}}}%
+    \put(0.44495179,0.33557362){\color[rgb]{0,0.39215686,0}\makebox(0,0)[lb]{\smash{1.00}}}%
+    \put(0.44543938,0.54864364){\color[rgb]{0,0.39215686,0}\makebox(0,0)[lb]{\smash{1.00}}}%
+    \put(0.44876026,0.73201684){\color[rgb]{0,0.39215686,0}\makebox(0,0)[lb]{\smash{1.00}}}%
+    \put(0.44552504,0.1575112){\color[rgb]{0,0.39215686,0}\makebox(0,0)[lb]{\smash{1.04}}}%
+    \put(0.44543938,0.11574322){\color[rgb]{0,0.39215686,0}\makebox(0,0)[lb]{\smash{1.06}}}%
+    \put(0.44552504,0.39801143){\color[rgb]{0,0.39215686,0}\makebox(0,0)[lb]{\smash{1.15}}}%
+    \put(0.44284988,0.81725934){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{-1.16}}}%
+    \put(0.44273128,0.75472928){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{-1.20}}}%
+    \put(0.44310027,0.77551114){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{-1.26}}}%
+    \put(0.44431924,0.83881871){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{-1.30}}}%
+    \put(0.4431398,0.79642478){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{-1.37}}}%
+    \put(0.4425995,0.41874057){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{-1.71}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{graficoFit.pdf}}%
+    \put(0.55274202,0.04716442){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{O diretor deveria ter}}}%
+    \put(0.55091685,0.0394157){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{mais autonomia para}}}%
+    \put(0.54817581,0.03166039){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{administrar a prisão.}}}%
+    \put(0.56385774,0.10075314){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{O cargo de diretor}}}%
+    \put(0.56006904,0.09451331){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{deveria ser ocupado}}}%
+    \put(0.55767721,0.0882669){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{por meio de concurso}}}%
+    \put(0.54741807,0.08202707){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{público interno e não por}}}%
+    \put(0.57287156,0.07578065){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{indicação.}}}%
+    \put(0.56393022,0.14847761){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A perda do cargo de}}}%
+    \put(0.55587181,0.14248817){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{diretor geralmente se dá}}}%
+    \put(0.55095638,0.13649213){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{mais por razões políticas}}}%
+    \put(0.56623639,0.13050269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{do que por falta de}}}%
+    \put(0.56242792,0.12450666){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{capacidade técnica.}}}%
+    \put(0.56481974,0.19662378){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Muitos aspectos da}}}%
+    \put(0.56149886,0.19060139){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{dinâmica da unidade}}}%
+    \put(0.56384456,0.184579){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{são decididos pela}}}%
+    \put(0.55118041,0.17855661){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Coordenação Regional ou}}}%
+    \put(0.56060934,0.17253422){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{pelo gabinete da SAP.}}}%
+    \put(0.55394122,0.24496762){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A direção da unidade}}}%
+    \put(0.54930912,0.23878051){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{prisional tem menos poder}}}%
+    \put(0.55095638,0.23259998){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{sobre os presos do que a}}}%
+    \put(0.54697001,0.22641287){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{coordenação regional e o}}}%
+    \put(0.56470114,0.22022575){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{gabinete da SAP.}}}%
+    \put(0.54836689,0.28379029){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Não dá para confiar nos}}}%
+    \put(0.58228731,0.27741868){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{presos.}}}%
+    \put(0.54979671,0.33189034){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{É importante ganhar o}}}%
+    \put(0.55572027,0.32458967){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{respeito dos presos.}}}%
+    \put(0.55020523,0.38321243){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Conversar com presos é}}}%
+    \put(0.55757838,0.37676834){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{inútil para fazê- los}}}%
+    \put(0.54891378,0.37032425){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{repensarem suas atitudes.}}}%
+    \put(0.54969788,0.43202409){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{O contato pessoal do}}}%
+    \put(0.54884789,0.42415677){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{diretor com os presos}}}%
+    \put(0.55840201,0.41629604){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{deve ser evitado.}}}%
+    \put(0.54913122,0.48329347){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{É mais fácil trabalhar}}}%
+    \put(0.55101569,0.47619048){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{na administração do}}}%
+    \put(0.54852503,0.46908749){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{que diretamente com os}}}%
+    \put(0.5808443,0.46199108){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{presos.}}}%
+    \put(0.55354588,0.53073461){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A disciplina é a melhor}}}%
+    \put(0.55150328,0.52429053){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{forma de fazer os presos}}}%
+    \put(0.54891378,0.51784644){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{respeitarem as ordens dos}}}%
+    \put(0.56051709,0.51140235){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{agentes e diretores.}}}%
+    \put(0.55627375,0.58331521){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Os presos deveriam}}}%
+    \put(0.56275078,0.57603432){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ter mais respeito}}}%
+    \put(0.5608136,0.56874683){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{à autoridade dos}}}%
+    \put(0.5496847,0.56146593){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{diretores e dos agentes}}}%
+    \put(0.56485269,0.55418503){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{penitenciários.}}}%
+    \put(0.56012834,0.62628898){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Uma conversa com os}}}%
+    \put(0.55436951,0.62049062){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{presos dá mais resultado}}}%
+    \put(0.54945408,0.61469226){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{do que aplicar uma sanção}}}%
+    \put(0.57867651,0.60890048){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{disciplinar.}}}%
+    \put(0.549744,0.66859067){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A ressocialização de}}}%
+    \put(0.54880177,0.66144814){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{presos é uma falácia.}}}%
+    \put(0.54781341,0.71669071){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A vida na prisão é muito}}}%
+    \put(0.55753225,0.71039817){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{fácil para os presos.}}}%
+    \put(0.54963199,0.76479076){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Os presos têm muitos}}}%
+    \put(0.57979665,0.75751645){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{direitos.}}}%
+    \put(0.54945408,0.81578999){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Melhorar as condições das}}}%
+    \put(0.5561815,0.80999162){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{prisões torna os presos}}}%
+    \put(0.55879735,0.80419985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{piores para os agentes.}}}%
+    \put(0.55427726,0.87559218){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{O trabalho do diretor não}}}%
+    \put(0.55830976,0.86975429){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{é ressocializar presos,}}}%
+    \put(0.55658343,0.8639098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{mas sim manter a ordem}}}%
+    \put(0.55990431,0.8580719){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{e evitar que eles fujam}}}%
+    \put(0.55848767,0.85222742){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ou pratiquem violência}}}%
+    \put(0.55848767,0.84638952){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{contra outros presos ou}}}%
+    \put(0.55755861,0.84054504){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{agentes penitenciários.}}}%
+    \put(0.55073895,0.92369223){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Nós deveríamos parar de}}}%
+    \put(0.56118918,0.91785433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{tratar os presos como}}}%
+    \put(0.55313077,0.91200985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{vítimas que merecem ser}}}%
+    \put(0.55733458,0.90617195){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ressocializadas e fazê-}}}%
+    \put(0.56026012,0.90032747){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{los pagar pelos crimes}}}%
+    \put(0.56052368,0.89448957){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{que cometeram contra}}}%
+    \put(0.57035454,0.88864508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{outras pessoas.}}}%
+    \put(0.10051592,0.3735463){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{idade}}}%
+    \put(0.10137908,0.42131689){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{sexo}}}%
+    \put(0.10106281,0.4728696){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{seguranca}}}%
+    \put(0.10005469,0.52044911){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{unidades}}}%
+    \put(0.09991632,0.56684259){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{tempo}}}%
+    \put(0.34389557,0.14287692){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{autonomo}}}%
+    \put(0.34253163,0.38259965){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{dialogal}}}%
+    \put(0.34361883,0.57583005){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{disciplinar}}}%
+    \put(0.34364518,0.7915357){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{punitivo}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{graficoFit.pdf}}%
+    \put(0.00329452,0.93920285){\color[rgb]{0,0,1}\makebox(0,0)[lb]{\smash{}}}%
+  \end{picture}%
+\endgroup%
