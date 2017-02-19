@@ -17,7 +17,7 @@ output:
 
 layout: true
 
-background-image: url(https://github.com/jjesusfilho/heloisa/blob/master/Apresentacao/back.png?raw=true)
+background-image: url(https://github.com/jjesusfilho/heloisa/blob/master/Apresentacao/back.jpeg?raw=true)
 
 
 
